@@ -1,0 +1,45 @@
+/* style */
+
+/* BASIC */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.opacity-dark {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #565656c9;
+    opacity: 0.8;
+}
+
+/* SECTIONS */
+.about-sec {
+    background-image: url(img/background-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-sec {
+    background-image: linear-gradient(to bottom left, hsl(0, 0%, 7%), hsl(0, 0%, 21%));
+}
+
+/* ELEMENTS */
+.hero-sec .hero-body {
+    cursor: default;
+}
+
+.about-sec .hero-body .content {
+    box-shadow: 5px 5px 0 rgb(112, 37, 134) !important;
+}
+
+.image {
+    margin: auto !important;
+    width: 250px;
+}
