@@ -30,6 +30,10 @@ body {
     background-image: linear-gradient(to bottom left, hsl(0, 0%, 7%), hsl(0, 0%, 21%));
 }
 
+.social-ref {
+    text-align: center;
+}
+
 /* ELEMENTS */
 .hero-sec .hero-body {
     cursor: default;
@@ -42,4 +46,14 @@ body {
 .image {
     margin: auto !important;
     width: 250px;
+}
+
+.social-ref a {
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.social-ref a span:hover {
+    color: #474747 imp !important;
+    transition: color 0.5;
 }
