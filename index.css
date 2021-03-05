@@ -26,7 +26,8 @@ body {
     background-attachment: fixed;
 }
 
-.hero-sec {
+.hero-sec,
+.footer-sec {
     background-image: linear-gradient(to bottom left, hsl(0, 0%, 7%), hsl(0, 0%, 21%));
 }
 
