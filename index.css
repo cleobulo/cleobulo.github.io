@@ -9,14 +9,6 @@ body {
     word-spacing: 2px;
 }
 
-.opacity-dark {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #565656c9;
-    opacity: 0.8;
-}
-
 /* SECTIONS */
 .about-sec {
     background-image: url(img/background-hero.jpg);
