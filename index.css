@@ -41,6 +41,10 @@ body {
     width: 250px;
 }
 
+.image img {
+    border: rgb(112, 37, 134) 3px solid !important;
+}
+
 .social-ref a {
     cursor: pointer;
     margin-left: 15px;
